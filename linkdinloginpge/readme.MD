@@ -3,5 +3,4 @@
 ..Screenshot>>>
 https://1drv.ms/i/c/230b8eced9d418be/EdiNg9yDjF9JjJ4R6vnoHsYB4fQAfX4AEChi7SDobT_Vkw
 
-
-https://1drv.ms/i/c/230b8eced9d418be/EdiNg9yDjF9JjJ4R6vnoHsYB4fQAfX4AEChi7SDobT_Vkw?e=VLbvvY
+Screenshot 2025-07-12 142705
