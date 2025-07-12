@@ -7,8 +7,6 @@ This is a **Coca-Cola themed landing page** created using **only HTML and CSS**.
 - 🍾 Eye-catching Coca-Cola bottle hero section
 - 🖤 Clean and dark theme layout
 - 📱 Fully responsive using media queries
-- 🍽️ Sections for Descriptions, Nutrients, and Ingredients
-- ❤️ “Taste Now” Call-to-Action Button
 - 🧭 Simple navigation bar
 
 ## 🛠️ Built With
