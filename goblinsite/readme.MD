@@ -18,4 +18,5 @@ A simple and responsive **Goblin-themed landing page** built using **HTML, CSS**
 - **Media Queries** for responsiveness
 
 [View Live]
+
 https://goblin-landing-page03.netlify.app/
