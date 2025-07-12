@@ -17,9 +17,5 @@ A simple and responsive **Goblin-themed landing page** built using **HTML, CSS**
 - ** little JavaScript**
 - **Media Queries** for responsiveness
 
-## 📸 Screenshots
-
-
-https://github.com/nitinkumar-07/cssprojects--/blob/main/goblinsite/Screenshot%202025-07-12%20145407.png?raw=true
-
-goblinsite/Screenshot 2025-07-12 145407.png
+[View Live]
+https://goblin-landing-page03.netlify.app/
