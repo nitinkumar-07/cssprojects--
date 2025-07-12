@@ -9,7 +9,7 @@ A simple and responsive **Goblin-themed landing page** built using **HTML, CSS**
 - 🎯 Interactive elements with JavaScript
 - 💻 Smooth layout using flexbox and other CSS techniques
 - animated UI
-
+ 
 #screenshot..
 
 <img width="1908" height="902" alt="Screenshot 2025-07-12 145407" src="https://github.com/user-attachments/assets/b15f7545-0606-4a42-bc60-eb49f87c4d64" />
