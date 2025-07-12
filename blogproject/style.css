@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    max-width: 72vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 568px;
+    margin-bottom: 2.5rem;
+}
+.heading-title{
+    padding-top: 15px;
+}
+.header-desc{
+    margin-top: 3px;
+    color: rgb(102, 93, 93);
+}
+.main-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+}
+
+@media (max-width:1210px) {
+    .main-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width:1120px){
+    .main-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:770px) {
+    .main-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+} 
+.card-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(236, 229, 229);
+    border-radius: 7px;
+    overflow: hidden;
+}
+.card-image-container{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+}
+.card-image{
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.card-container:hover .card-image{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+
+.card-title-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem;
+}
+.card-title{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: .3rem;
+    color: rgb(24, 23, 23);
+}
+.card-title:hover{
+    color: rgb(60, 60, 163);
+}
+.card-desc{
+    color: rgb(113, 107, 107);
+    font-size: 1rem;
+}
+.card-footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.author-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.author-avtar-container{
+    height: 2.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    border: 1px solid rgb(150, 147, 147);
+    border-radius: 50%;
+    background-color: rgb(243, 239, 239);
+}
+.author-info-container{
+    display: flex;
+    flex-direction: column;
+}
+.author-name{
+    color: rgb(35, 37, 142);
+}
+.author-date{
+    color: rgb(114, 106, 106);
+}
+.card-tag-container{
+    font-size: 0.79rem;
+    border: 1px solid rgb(76, 71, 71);
+    border-radius: 4px;
+    line-height: 1.3rem;
+    padding: 0.15rem 0.5rem;
+    color: grey;
+}
