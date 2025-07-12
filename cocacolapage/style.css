@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.nav {
+    width: 100%;
+    height: 140px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    width: 57%;
+    justify-content: space-between;
+    margin-right: 60px;
+}
+
+.nav h1 {
+    font-size: 22px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav h1 i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.nav h5 {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.nav img {
+    height: 38px;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+
+
+#content {
+    width: 100%;
+    height: calc(100% - 140px);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+#left {
+    height: 100%;
+    width: 36%;
+    /* background-color: red; */
+    padding: 80px 80px;
+}
+
+#center {
+    /* background-color: red; */
+    width: 24%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+#right {
+    height: 100%;
+    width: 36%;
+    padding: 180px 70px;
+    /* background-color: red; */
+}
+
+#left h1 {
+    font-size: 50px;
+    line-height: 52px;
+    font-weight: 500;
+}
+
+#left h1 span {
+    color: red;
+    font-weight: 400;
+}
+
+#left p {
+    font-size: 18px;
+    width: 85%;
+    margin: 40px 0;
+    line-height: 27px;
+}
+
+.buttons {
+    display: flex;
+
+}
+
+#btn {
+    background-color: red;
+    padding: 15px 28px;
+    border: none;
+    border-radius: 45px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-right: 25px;
+}
+
+#btn i {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+.buttons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+#center-bg {
+    width: 100%;
+    height: 88%;
+    background: blue;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage.jpg);
+    background-size: 450%;
+    background-position: 30% 40%;
+    filter: blur(2px);
+}
+
+#content>img {
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%, 0);
+    padding-bottom: 10px;
+    z-index: 99;
+}
+
+#right-elems {
+    /* background-color: red; */
+    position: absolute;
+    width: 350px;
+}
+
+#elem1 {
+    /* background-color: blue; */
+    border-bottom: 1px solid #FFF;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.65;
+}
+
+#elem1 h1 {
+    font-size: 22px;
+}
+
+#elem1 i {
+    margin-right: 10px;
+}
+
+#elem2 h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+#elem2 p {
+    font-size: 13px;
+    width: 90%;
+    padding: 5px 0;
+    opacity: 0.65;
+    line-height: 17px;
+}
+
+@media (max-width:1530px) {
+    .nav-part2 {
+        width:70% ;
+    }
+}
+
+@media (max-width:1200px){
+    .nav h5{
+        display: none;
+    }
+    .nav img{
+        height: 60px;
+    }
+    .line{
+        width: 100px;
+    }
+    .nav-part2{
+        margin:250px ;
+    }
+    #right-elems {
+        width: 250px;
+    }
+    #search{
+        position: absolute;
+        left: 10%;
+        font-size: 20px;
+    }
+    .nav h1{
+        position: absolute;
+        right: 10%;
+    }
+    #left h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #left p {
+        font-size: 15px;
+        width: 90%;
+        margin: 15px 0;
+        line-height: 20px;
+    }
+    #center{
+        width: 40%;
+    }
+}
+
+@media (max-width:1015px){
+    #left{
+        padding: 0 40px;
+    }
+    .nav img{
+        height: 40px;
+    }
+    .line{
+        width: 80px;
+    }
+    #left h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    #content>img {
+        left: 47%;
+    }
+    #right-elems{
+        left: 4%;
+        top: 40%;
+    }
+}
+@media (max-width:1014px){
+    #center{
+        width: 40%;
+    }
+    #right{
+        width: 0;
+        padding: 0;
+    }
+    #content>img {
+        left: 66%;
+    }
+}
+@media (max-width:830px){
+    #right-elems{
+        top: 60%;
+    }
+    .nav h1{
+        font-size: 15px;
+    }
+    .nav h1 i{
+        font-size: 12px;
+    }
+    .nav-part2 {
+        width: 80%;
+    }
+    .line{
+        margin: 20px;
+        width: 60px;
+    }
+}
+@media (max-width:790px){
+    #left h1{
+        margin-top: 40px;
+        font-size: 20px;
+        width: 100%;
+    }
+    #left p{
+        width: 100%;
+        font-size: 13px;
+        margin: 6px 0;
+    }
+    #btn{
+        margin-top: 15px;
+        font-size: 12px;
+        padding: 12px 18px;
+    }
+    #btn i{
+        font-size: 10px;
+    }
+    #love{
+        margin-top: 15px;
+    }
+    #right-elems{
+        width: 200px;
+    }
+    #right-elems{
+        top: 50%;
+    }
+    #center{
+        width: 40%;
+        margin-left: 60px;
+        height: 75%;
+        /* width: 15%;
+        height: 80%;
+        padding-top: 20px; */
+    }
+    #content>img{
+        height: 75%;
+        left: 70%;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
