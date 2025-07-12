@@ -19,4 +19,4 @@ This is a **Coca-Cola themed landing page** created using **only HTML and CSS**.
 
 ## 📷 Screenshot
 
-<img width="1919" height="904" alt="Screenshot 2025-07-12 161841" src="https://github.com/user-attachments/assets/c53cb5ba-5754-461f-9131-e589e6ba530c" />
+<img width="1919" height="1004" alt="Screenshot 2025-07-12 161841" src="https://github.com/user-attachments/assets/c53cb5ba-5754-461f-9131-e589e6ba530c" />
